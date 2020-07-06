@@ -1,6 +1,10 @@
 from utils import Mysql
 from utils import encrypt
 ## 初始化4个登录用户
+## 管理员密码：admin
+## 老板密码：boss123
+## 店员1密码：dy123
+## 店员2密码：dy321
 default_userinfo = '''insert into user(username, passwd, role, realname, phone) values('admin', '21232f297a57a5a743894a0e4a801fc3', '0', '管理员', '10086'),
                             ('dianyuan1', 'bec8ee5aa927c15b828fc6acf3461129', '2', '店员1', '13800000001'),
                             ('dianyuan2', 'ce97c31e8e2272bd3cca8a5f06074086', '2', '店员2', '13800000002'),
